@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+    display: flex;
+    background: white;
+}
+
+
+.left {
+    width: 30%;
+    background-color: #706969;
+    color: #d8d8d8;
+    padding: 3%;
+}
+
+#profile h1 {
+    font-size: 20px;
+    color: #fbe8e8;
+}
+
+#profile p {
+    font-size: 15px;
+}
+
+.cvc-profile-contact,
+.cvc-profile-hobbies,
+.cvc-profile-languages,
+.cvc-profile-skills {
+    margin-top: 25px;
+}
+
+.cvc-profile-contact a {
+    color: #d8d8d8;
+    text-decoration: underline;
+}
+
+.cvc-profile-languages ul li,
+.cvc-profile-contact ul li,
+.cvc-profile-hobbies ul li,
+.cvc-profile-skills ul li {
+    list-style: none;
+    margin-top: 4px;
+}
+
+#profile-image {
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 105px;
+    margin-left: 30%;
+}
+
+
+.right {
+    width: 70%;
+    background-color: #dedede;
+    padding: 25px;
+    border: 2px solid #706969;
+}
+
+.right h2,
+.right h1 {
+    color: #433f3f
+}
+
+.top {
+    margin-bottom: 25px;
+}
+
+.work-experience-list,
+.education-list {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.work-experience-item,
+.education-item {
+    margin-bottom: 10px;
+}
+
+.work-experience-item-right ul {
+    margin-left: 20px;
+}
